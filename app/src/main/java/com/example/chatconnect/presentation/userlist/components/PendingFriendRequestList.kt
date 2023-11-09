@@ -36,7 +36,7 @@ fun PendingFriendRequestList(
             )
             Row() {
                 TextButton(
-                    onClick = { onCancelClick() }
+                    onClick = { onAcceptClick() }
                 ) {
                     Text(text = "Decline", color = MaterialTheme.colorScheme.error)
                 }
