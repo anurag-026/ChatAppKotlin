@@ -17,11 +17,11 @@ import androidx.compose.ui.platform.SoftwareKeyboardController
 import androidx.compose.ui.res.painterResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.example.chatwithme.R
+import com.example.chatconnect.R
 import com.example.chatconnect.core.SnackbarController
 import com.example.chatconnect.presentation.auth.components.*
 import com.example.chatconnect.presentation.auth.AuthViewModel
-import com.example.chatwithme.presentation.auth.components.*
+import com.example.chatconnect.presentation.auth.components.*
 import com.example.chatconnect.presentation.bottomnavigation.BottomNavItem
 import com.example.chatconnect.ui.theme.spacing
 
@@ -77,7 +77,7 @@ fun SignUpScreen(
                 verticalArrangement = Arrangement.Center,
             ) {
                 Image(
-                    painter = painterResource(R.drawable.ic_chatwithme),
+                    painter = painterResource(R.drawable.ic_chatconnect),
                     contentDescription = null
                 )
                 TextLightweight()
