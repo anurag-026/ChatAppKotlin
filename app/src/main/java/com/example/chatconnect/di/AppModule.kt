@@ -20,9 +20,6 @@ import com.example.chatconnect.domain.usecase.authScreen.SignUp
 import com.example.chatconnect.domain.usecase.chatScreen.*
 import com.example.chatconnect.domain.usecase.profileScreen.*
 import com.example.chatconnect.domain.usecase.userListScreen.*
-import com.example.chatwithme.domain.usecase.chatScreen.*
-import com.example.chatwithme.domain.usecase.profileScreen.*
-import com.example.chatwithme.domain.usecase.userListScreen.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
